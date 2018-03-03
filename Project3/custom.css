@@ -1,0 +1,146 @@
+html,body{
+    height:100vh;
+    
+    
+    width: 100%;
+    
+}
+.header1{
+    padding-bottom:10%;
+    background-image: url('img/slid2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+*{
+    margin:0%;
+    padding:0;
+}
+.navbar{
+    color: white;
+    font-size:17px;
+}
+.navbar-form button{
+   border-bottom-right-radius:5px; 
+   border-top-right-radius: 5px;
+    background-color:darkslateblue;
+    color: white;
+    margin-right: 60px;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 9.7vw;
+}
+.side{
+    color: aliceblue;
+    
+    }
+.side button{
+    background-color:darkslateblue;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: block;
+    width: 190px;
+    height: 30px;
+    padding-top:0.5px; 
+}
+
+
+.content1 input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:none;
+    border-radius:20px;
+    box-sizing: border-box;
+    background-color:rgb(32,32,32);
+    color:white;
+}
+
+.content1 input[type=submit] {
+    width: 100%;
+    height:50px;
+    background-color:darkslateblue;
+    color: white;
+   
+    margin: 8px 0;
+    border: none;
+    
+    cursor: pointer;
+      border-radius:20px;
+     display: block;
+    width: 210px;
+    height: 30px;
+    padding-top:0.5px; 
+}
+
+input[type=submit]:hover {
+    background-color:darkslateblue;
+}
+
+.content1 form {
+    border-radius: 1px;
+    background-color:rgb(26,26,26);
+    padding: 20px;
+    width: 250px;
+}
+.content1{
+    margin-top:100px;
+   
+}
+@media only screen and (max-width: 808px) {
+    .content1 .side{
+        display: none;
+        visibility:hidden;
+       
+    }
+    .content1 form{
+        margin-left:20px;
+    }
+    
+    
+}
+.side h2{
+    margin-bottom: 15px;
+}
+
+.content2{
+    padding: 0px;
+    color:white;
+    
+}
+.parallax1{
+    background-image: url(img/light-2401495_1280.jpg);
+    height:35vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+     font-size: 1.5vw;
+}
+.parallax1 h1{
+    padding-top: 10%;
+   
+   
+    
+}
+.parallax1  p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+footer{
+    background-color:#5E44B5;
+    width:100%;
+    padding:3%;
+    margin-top:20px;
+    color:#fff;
+    font-size:3px;
+}
+#icon{
+    max-width: 150px;
+    margin: 1% auto;
+}
